@@ -1,0 +1,23 @@
+html,body{
+    height:100%;
+    width:100%;
+    color: white;
+}
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#grid{
+   margin: 3rem;
+}
+.container{
+    background-color: white;
+    height: 720px;
+    width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+}
