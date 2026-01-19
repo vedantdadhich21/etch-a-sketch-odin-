@@ -46,7 +46,6 @@ const btn = document.querySelector("button");
 btn.addEventListener("mousedown",clearBlocks);
 function clearBlocks(){
     const blc = document.querySelectorAll(".blocks");
-    console.log("iiiii")
     blc.forEach((b) => b.style.backgroundColor = "white");
 }
 
